@@ -1,0 +1,48 @@
+.footer-bawah {
+  margin: auto;
+}
+.baris-footer {
+  width: 100%;
+  margin: 0;
+}
+.first p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+.second p a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+}
+.second p {
+  padding-bottom: 16px;
+  margin-left: 50px;
+}
+@media (max-width: 991px) {
+  .second p {
+    margin-left: 0;
+  }
+}
+.thrid p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+.thrid img {
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+.fourth p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+.fourth img {
+  padding-bottom: 16px;
+}

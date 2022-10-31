@@ -1,0 +1,36 @@
+#jumbocard {
+  margin-top: 100px;
+}
+.card1 {
+  margin-top: 100px;
+  padding-bottom: 80px;
+  font-family: arial;
+  max-width: 86%;
+  color: white;
+  background: #0d28a6;
+  border-radius: 13px;
+  border: 1px solid #0d28a6;
+  margin: auto;
+}
+.card-title1 {
+  text-align: center;
+  padding-top: 64px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.card-text1 {
+  text-align: center;
+  margin: auto;
+  width: 38%;
+  padding-top: 16px;
+  padding-bottom: 52px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.button-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}

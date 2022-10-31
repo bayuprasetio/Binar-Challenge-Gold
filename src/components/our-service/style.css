@@ -1,0 +1,43 @@
+.isi-service .girl {
+  display: flex;
+  margin-left: 130px;
+  width: 70%;
+  padding-top: 105px;
+}
+.serviceHead2 {
+  padding-top: 136px;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.serviceText2 {
+  width: 88%;
+  padding-bottom: 18px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.serviceli {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.serviceItem {
+  padding-right: 16px;
+}
+
+@media (max-width: 991px) {
+  .isi-service .girl {
+    width: 80%;
+    margin-left: 0;
+    padding-top: 50px;
+    margin: auto;
+  }
+  .serviceHead2 {
+    padding-top: 30px;
+  }
+}

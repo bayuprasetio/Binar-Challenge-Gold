@@ -1,0 +1,36 @@
+.faq-tittle .row {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.judul-faq {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 16px;
+}
+.paragraf-faq {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.Accordion-border {
+  margin-bottom: 16px;
+}
+.accordion-faq {
+  padding-left: 50px;
+}
+.Accordion.Item {
+  box-shadow: 1px;
+}
+@media (max-width: 991px) {
+  .faq-tittle .row {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .paragraf-faq {
+    padding-bottom: 10px;
+  }
+  .accordion-faq {
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,77 @@
+#Testimonial {
+  margin-top: 100px;
+}
+.judul-1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.keterangan-1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.body-testi {
+  background-color: #f1f3ff;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.card_kiri {
+  width: 50%;
+  height: 50%;
+  margin: 40px 50px;
+}
+
+.card_kanan {
+  position: absolute;
+  bottom: 66px;
+  left: 175px;
+  right: 57px;
+}
+
+.btnprevnext {
+  text-align: center;
+  margin: 20px;
+}
+
+.btnprev {
+  border: none;
+}
+
+.btnnext {
+  border: none;
+}
+
+@media (max-width: 991px) {
+  .card-testi {
+    height: auto;
+  }
+  .body-testi .card-body {
+    display: block;
+    height: 500px;
+  }
+  .card_kiri {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card_kanan {
+    position: absolute;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .card_kanan .faq-icon {
+    display: flex;
+    justify-content: center;
+  }
+}
